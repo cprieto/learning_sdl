@@ -45,6 +45,9 @@ bool Game::run() {
 }
 
 Game::~Game() {
+    renderer.reset();
+    window.reset();
+
     SDL_Quit();
 }
 
