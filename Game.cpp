@@ -2,6 +2,7 @@
 #include <SDL2/SDL.h>
 #include <memory>
 #include <utility>
+#include <string>
 #include "Game.h"
 
 Game::Game(const std::string& name, int width, int height, color background): width{width}, height{height}, background{std::move(background)} {
